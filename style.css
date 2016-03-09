@@ -1,0 +1,651 @@
+/*
+ Theme Name:     Washington State University Presidential Theme
+ Theme URI:      https://web.wsu.edu/
+ Description:    A child theme for Washington State University's Spine framework
+ Author:         WSU University Communications
+ Author URI:     https://ucomm.wsu.edu/
+ Template:       spine
+ Version:        0.0.1
+*/
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-weight: 300;
+	background-color: #981e32;
+	color: #4a4a4a;
+}
+main {
+	padding-right:20px;
+	background: url('assets/bg-lines-angle-bg.png') repeat left top;
+	background-attachment: fixed
+}
+main ::selection {
+  background: #981E32; /* WebKit/Blink Browsers */
+  color:#fff;
+}
+main ::-moz-selection {
+  background: #981E32; /* Gecko Browsers */
+  color:#fff;
+}
+/**************************************
+	Spine
+**************************************/
+#spine #glue:before {
+	border-right: solid 1px #b5babe;
+}
+
+#spine .spine-sitenav {
+	font-weight: 400;
+}
+/**************************************
+	Header
+**************************************/
+.main-header {
+	position: relative;
+	padding: 1rem 0 3rem;
+	background-color: #fff;
+	height: auto;
+	z-index: 100;
+	position: relative;
+	width: auto;
+}
+.main-header .header-group:not(.unset) {
+	padding: .7em 2rem;
+	position: relative;
+}
+.main-header sub:not(.unset), .main-header sup:not(.unset) {
+	display: inline-block;
+	font-size: 13px;
+}
+.main-header .sup-header:not(.unset) a, .sub-header span, .sup-header-default {
+	color: #5e6a71;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+.sup-header a {
+	font-weight: 700;
+}
+.sub-header span {
+	border-left: 1px solid #981e32;
+	font-weight: 300;
+	margin-left: 1em;
+	padding-left: 1.25em;
+	text-transform: uppercase;
+	color: #981e32;
+}
+/**************************************
+	Typography
+**************************************/
+main p {
+	font-size: 1.3em;
+	line-height: 1.75em;
+	padding-bottom: 2em;
+	padding-left:1em;
+}
+h1 {
+	color: #2a3033;
+	margin: 1rem 0 2rem 0;
+	padding-top: 0;
+	font-family: 'palatino';
+	text-transform: none;
+	font-weight: 400;
+}
+h2 {
+	font-weight:600;
+	color:#464e54;
+	font-size:1.6rem;
+	line-height: 1;
+	padding:1em 0 1em 0;
+	margin-top:2em;
+	margin-bottom:1.5em;
+	border-bottom:1px solid #d3d3d3;
+}
+h3 {
+	font-family: 'palatino';
+	color:#2a3033;
+	font-size:1.3rem;
+	font-weight: 400;
+	padding-top:1em;
+	padding-bottom:.8em;
+}
+h4 {
+	color: #464e54;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 0 0 .5em;
+    font-size: 1.5em;
+    border-left: none;
+    margin-top: 0;
+    margin-bottom: .5em;
+}
+h5 {
+	padding-bottom: 1.1em;
+}
+hgroup.source {
+	display: none;
+}
+.sidebar {
+	font-size: 1.25em;
+	color: #981e32;
+}
+main ul {
+	padding-left:5em;
+	padding-bottom:2em;
+}
+p + ul {
+	padding-top:0;
+}
+main ul li {
+	font-size: 1.3em;
+	line-height: 1.5em;
+}
+main ul > li {
+	padding-bottom: .5em;
+}
+main ul > li > ul {
+	padding-top: 1rem;
+}
+aside form label,
+aside header {
+	font-weight: 700;
+	display: block;
+	font-size: 1.2em;
+	width: 100%;
+	padding-bottom: .5em;
+	padding-top: 1.5em;
+}
+span.highlight {
+	background-color:#981E32;
+	color:#fff;
+}
+/**************************************
+	Utilities
+**************************************/
+hr {
+	margin-top: .8rem;
+	background-color: transparent;
+	border-top: 1px solid #d3d3d3;
+}
+.more-left {
+	margin-left: 40px;
+}
+
+.line-left {
+	padding-left: 40px;
+	margin: 40px 0 20px 40px;
+	border-left: solid 1px #b5babe;
+}
+section.bg-image {
+	height: 400px;
+}
+.section-wrapper.section-wrapper-has-background {
+	background-size: cover;
+	background-position: bottom center;
+}
+.show-hide {
+	color: #981E32;
+	padding-bottom: .8em;
+	margin-bottom: .8em;
+	border-bottom: 1px solid #d3d3d3;
+}
+.show-hide:hover {
+	color: #c60c30;
+}
+
+.show-hide:after,
+.accordion h5.ui-accordion-header:after {
+	color: #981E32;
+	content: "+";
+	font-size: 1.3em;
+	display: inline-block;
+	background-size: contain;
+	width: 25px;
+	height: 25px;
+	padding-left: .4em;
+}
+.accordion h5.ui-accordion-header {
+	cursor: pointer;
+	outline: 0;
+	color: #981E32;
+	border-top: 1px solid #d3d3d3;
+	font-size: 1.1em;
+}
+
+.accordion h5.ui-accordion-header:first-of-type {
+	border-top: 0;
+}
+.angle-bg {
+	background: url('assets/bg-lines-angle-drk.png') repeat left top;
+}
+/**************************************
+	Structures
+**************************************/
+.top-content .two {
+	padding-left: 2rem !important;
+	border-left: 1px solid #efefef;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+.home #binder.fluid.max-1188 .home-footer .row {
+	max-width: 792px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section {
+	margin-top:.6rem;
+	background-color: #fff;
+}
+
+section:first-of-type {
+	margin-top:0;
+}
+/**************************************
+	Featured image
+**************************************/
+
+/* The sizing of the featured image on individual posts works
+   until a certain point, at which the H2 starts to distance
+   itself from the image. This will need to be targeted with
+   mobile styles. */
+
+.home-featured-image,
+.featured-image {
+	background-size: cover;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 350px !important;
+	width: 100% !important;
+}
+
+.home-featured-image {
+	height: 500px !important;
+}
+
+.replacement-featured-image {
+	background-attachment: scroll;
+	background-position: 0 175px;
+	-webkit-transition: all 600ms ease-in-out;
+	-moz-transition: all 600ms ease-in-out;
+	-o-transition: all 600ms ease-in-out;
+}
+
+.replacement-featured-image:hover {
+	cursor: pointer;
+	background-position: 0 0;
+}
+
+.home-featured-image {
+	height: 700px;
+}
+/**************************************
+	Video
+**************************************/
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 0;
+	height: 0;
+	overflow: hidden;
+	margin: -2rem -2rem 40px;
+}
+
+.video-container iframe, 
+.video-container object, 
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/**************************************
+	Home Page
+**************************************/
+.home .main-header sub:not(.unset), 
+.home .main-header sup:not(.unset) {
+	display: block;
+	font-size: 13px;
+	line-height: 1;
+}
+.home .main-header .header-group:not(.unset) {
+	margin-left: auto;
+	margin-right: auto;
+}
+.home .sup-header span {
+	color: #981e32;
+	font-weight: 300;
+	padding-bottom: .5rem;
+}
+
+.home .sub-header span {
+	border-left: none;
+	font-weight: 300;
+	margin-left: 0;
+	padding-left: 0;
+	text-transform: none;
+	font-family: 'Palatino';
+	font-size: 4rem;
+}
+.home .main-header {
+	padding-top: 3em;
+}
+.home .main-header h1 {
+	background-size: 12%;
+	max-width: 792px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.home .sub-header span {
+	color: #464e54;
+	border-bottom: 1px solid #d3d3d3;
+}
+/**************************************
+	Blog
+**************************************/
+.blog main article header h2.article-title {
+	padding-bottom: .4em;
+}
+.blog main h2.article-title:first-of-type {
+	margin-top: 0;
+}
+
+.blog article.type-post {
+	padding-bottom: 4em;
+}
+/* Added by CBY so that the news page looks better */
+.content-item-title {
+	display: block;
+	line-height: 1.3;
+}
+
+.content-item-byline-date {
+	display: block;
+}
+
+.content-item-byline-author {
+	display: none;
+}
+
+.wsuwp-content-syndicate-list {
+	list-style: none;
+	padding: 0;
+}
+.blog footer .pager {
+	padding-bottom: 2em;
+}
+/**************************************
+	Single post
+**************************************/
+.single-post h1,
+.content-item-title {
+	padding: 0 0 .5rem;
+	color: #2a3033;
+	background: none;
+	font-weight: 400;
+	display: block;
+	float: none;
+	margin: 1.2rem 0 0;
+	padding-bottom: 1.2em;
+}
+/**************************************
+	Tables
+**************************************/
+table.tablepress {
+	font-weight:400;
+	margin-top:2em;
+	margin-bottom:2em;
+}
+table.tablepress tbody {
+	font-size: 110%;
+}
+table.tablepress tbody td, 
+table.tablepress tfoot th {
+	border-top:1px solid #d3d3d3;
+}
+table.tablepress tfoot th, 
+table.tablepress thead th{
+	background-color:#fff;
+}
+table#tablepress-4.tablepress .row-7 {
+	font-weight:700;
+}
+.tablepress .odd td {
+	background: url('assets/bg-lines-angle-drk.png') repeat left top;
+}
+/**************************************
+	Events
+**************************************/
+#tribe-bar-form {
+	background: url('assets/bg-lines-angle-drk.png') repeat left top;
+}
+#tribe-bar-form .tribe-bar-submit input[type=submit] {
+	background:#981E32;
+}
+#tribe-bar-form label {
+	font-size:1.2em;
+	text-transform:lowercase;
+}
+#tribe-bar-form .tribe-bar-views-inner label {
+	color:#981E32;
+}
+#tribe-bar-collapse-toggle span.tribe-bar-toggle-arrow {
+	color:#981E32;
+}
+#tribe-bar-form input[type=text] {
+	border-bottom:solid 1px #d3d3d3;
+	color: #4a4a4a;
+	font-weight:400;
+	font-size:1em;
+}
+.tribe-events-calendar th {
+	color: #4a4a4a;
+	background: url('assets/bg-lines-angle-drk.png') repeat left top;
+}
+#tribe-events-content .tribe-events-calendar td {
+	color:#4a4a4a;
+}
+.tribe-events-calendar div[id*=tribe-events-daynum-],
+.tribe-events-calendar div[id*=tribe-events-daynum-] a {
+	color:#4a4a4a;
+	font-size: 1em;
+}
+#tribe-events-content a,
+.tribe-events-adv-list-widget .tribe-events-widget-link a,
+.tribe-events-adv-list-widget .tribe-events-widget-link a:hover,
+.tribe-events-back a,
+.tribe-events-back a:hover,
+.tribe-events-event-meta a, 
+.tribe-events-list-widget 
+.tribe-events-widget-link a, 
+.tribe-events-list-widget .tribe-events-widget-link a:hover, 
+ul.tribe-events-sub-nav a, 
+ul.tribe-events-sub-nav a:hover {
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+.tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-], 
+.tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-]>a {
+	background-color: #5e6a71;
+}
+#tribe-events-content .tribe-events-calendar td, 
+#tribe-events-content table.tribe-events-calendar{
+	border-color:#d3d3d3;
+}
+.tribe-events-notices {
+	background: #d3e1e3;
+    border: 1px solid #aec7cb;
+    color: #3f6b72;
+    margin: 10px 0 18px;
+    padding: 8px 35px 8px 14px;
+    text-shadow: 0 1px 0 #fff;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+#tribe-events .tribe-events-button, 
+.tribe-events-button {
+	background: url('assets/bg-lines-angle-drk.png') repeat left top;
+	color:#981E32;
+	font-weight:400;
+}
+.recurring-info-tooltip, 
+.tribe-events-calendar .tribe-events-tooltip, 
+.tribe-events-week .tribe-events-tooltip {
+	color:#4a4a4a;
+	border-color:#d3d3d3;
+}
+#tribe-events-content .tribe-events-tooltip h4 {
+	background-color:#5E6A71;
+	font-size:1.5em;
+	padding:.5em;
+}
+.tribe-events-tooltip .tribe-events-event-body {
+	font-size:1em;
+	padding:.8em;
+}
+.tribe-events-tooltip p.entry-summary {
+	font-size:1.2em;
+}
+/****** Event page ******/
+.single-tribe_events h2.tribe-events-single-event-title {
+	color: #2a3033;
+	margin: 0;
+	padding-top: 0;
+	font-family: 'palatino';
+	text-transform: none;
+	font-weight: 400;
+	border-bottom:none;
+	font-size: 2rem;
+}
+.tribe-events-schedule h2 {
+	font-weight:600;
+	margin-bottom:1em;
+}
+.single-tribe_events .tribe-events-schedule .recurringinfo, 
+.single-tribe_events .tribe-events-schedule .tribe-events-cost, 
+.single-tribe_events .tribe-events-schedule .tribe-events-divider {
+	font-size:1em;
+}
+.event-is-recurring {
+	color:#4a4a4a;
+}
+.tribe-events-divider {
+	font-weight:400;
+}
+#tribe-events .tribe-events-content p:first-of-type,
+.tribe-events-after-html p:first-of-type,
+.tribe-events-before-html p:first-of-type {
+	padding-top:2em;
+}
+.single-tribe_events .tribe-events-event-meta {
+	background: url('assets/bg-lines-angle-drk.png') repeat left top;
+	border:none;
+	font-size:110%;
+}
+.single-tribe_events #tribe-events-content .tribe-events-event-meta dt, 
+.single-tribe_events #tribe-events-content .tribe-events-event-meta dd {
+	line-height:1.1;
+}
+.single-tribe_events #tribe-events-content .tribe-events-event-meta dt span, 
+.single-tribe_events #tribe-events-content .tribe-events-event-meta dd span {
+	line-height:1.7;
+	padding-bottom:1em;
+}
+#tribe-events-header .tribe-events-sub-nav .tribe-events-nav-next {
+	display:none;
+}
+.tribe-events-back {
+    position: absolute;
+    margin: 0 0 20px;
+    bottom: -30px;
+}
+/**************************************
+	Forms
+**************************************/
+.gform_confirmation_message {
+	font-size: 1.5rem;
+	line-height: 1.5;
+	margin: 1rem 0;
+	padding: 1rem;
+	border-top: 1px solid #efefef;
+	border-bottom: 1px solid #efefef;
+	color: #981e32;
+}
+.gform_wrapper .prefix-onehundred .name_prefix {
+	width: 100% !important;
+}
+.gform_wrapper ul li.gfield {
+	padding-bottom: 3em;
+	border-bottom: none;
+	margin-bottom: 0;
+}
+
+.gform_wrapper .top_label .gfield_label {
+	font-size: 1.2em;
+}
+
+.gform_wrapper .gfield_date_day label, 
+.gform_wrapper .gfield_date_month label, 
+.gform_wrapper .gfield_date_year label, 
+.gform_wrapper .gfield_time_ampm label, 
+.gform_wrapper .gfield_time_hour label, 
+.gform_wrapper .gfield_time_minute label, 
+.gform_wrapper .ginput_complex label, .gform_wrapper .instruction {
+	font-weight: 400;
+}
+.gform_wrapper .gfield_checkbox li label, 
+.gform_wrapper .gfield_radio li label {
+	font-weight: 400;
+	font-size: 1em;
+}
+/**************************************
+	Media queries
+**************************************/
+
+@media screen and (max-width: 955px) {
+	.home .sub-header span {
+		border-bottom: none;
+	}
+	
+	.row.single .column.align {
+		padding: 2em;
+	}
+}
+@media screen and (max-width: 768px) {
+	.tribe-events-sub-nav li a {
+		background:#fff;
+		color:#981E32;
+	}
+	.tribe-events-sub-nav li a:hover {
+		color:#c60c30;
+	}
+}
+@media screen and (max-width: 600px) {
+	.home .sub-header span {
+		font-size: 2.5rem;
+	}
+	.main-header {
+		padding: 1.5rem 0;
+	}
+	.main-header sub:not(.unset),
+	.main-header sup:not(.unset) {
+		display: block;
+	}
+	
+	.main-header sub {
+		padding-top: .5rem;
+	}
+	
+	.sub-header span {
+		border-left: none;
+		margin-left: 0;
+		padding-left: 0;
+	}
+}
+@media screen and (max-width: 490px) {
+	h1 {
+		margin-bottom:0;
+	}
+}
