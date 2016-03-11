@@ -17,6 +17,7 @@ body {
 	color: #4a4a4a;
 }
 main {
+	position: relative;
 	padding-right:20px;
 	background: url('assets/bg-lines-angle-bg.png') repeat left top;
 	background-attachment: fixed
@@ -218,6 +219,20 @@ section.bg-image {
 .angle-bg {
 	background: url('assets/bg-lines-angle-drk.png') repeat left top;
 }
+
+/**************************************
+	Search Area
+**************************************/
+.president-primary-search {
+	position: absolute;
+	top: 0;
+	right: 3em;
+	background-color: #fff;
+	height: auto;
+	width: auto;
+	z-index: 101;
+}
+
 /**************************************
 	Structures
 **************************************/
