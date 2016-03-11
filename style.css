@@ -224,7 +224,20 @@ section.bg-image {
 .angle-bg {
 	background: url('assets/bg-lines-angle-drk.png') repeat left top;
 }
-
+.toc-column #toc:before {
+	content:"Jump to:";
+	display:block;
+	width:200px;
+	color: #464e54;
+	font-size:15px;
+    padding: 0 0 .5em;
+    font-size: 1.2em;
+    border-left: none;
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-weight:600;
+    padding-left:1.8em;
+}
 /**************************************
 	Search Area
 **************************************/
