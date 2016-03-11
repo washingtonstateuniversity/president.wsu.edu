@@ -21,3 +21,8 @@ add_action( 'after_setup_theme', 'wsu_president_theme_setup' );
 function wsu_president_theme_setup() {
     add_theme_support( 'html5', array( 'gallery', 'caption', 'search-form' ) );
 }
+
+add_action( 'wp_enqueue_scripts', 'wsu_president_theme_enqueue_scripts' );
+function wsu_president_theme_enqueue_scripts() {
+    wp_enqueue_script( 'wsu-president', get_stylesheet_directory_uri() . '/js/portfolio.js', array( 'jquery' ), spine_get_script_version(), true );
+}
