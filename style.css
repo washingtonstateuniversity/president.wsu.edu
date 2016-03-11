@@ -233,6 +233,11 @@ section.bg-image {
 	z-index: 101;
 }
 
+.search-term {
+	color: #333;
+	font-style: italic;
+}
+
 /**************************************
 	Structures
 **************************************/
