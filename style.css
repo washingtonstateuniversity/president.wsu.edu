@@ -52,9 +52,13 @@ main ::-moz-selection {
 	position: relative;
 	width: auto;
 }
+.main-header .header-group {
+	max-width:990px;
+}
 .main-header .header-group:not(.unset) {
 	padding: .7em 2rem;
 	position: relative;
+	max-width:990px;
 }
 .main-header sub:not(.unset), .main-header sup:not(.unset) {
 	display: inline-block;
@@ -85,7 +89,9 @@ main p {
 	padding-bottom: 2em;
 	padding-left:1em;
 }
+
 h1 {
+	width:635px;
 	color: #2a3033;
 	margin: 1rem 0 2rem 0;
 	padding-top: 0;
@@ -113,9 +119,8 @@ h3 {
 }
 h4 {
 	color: #464e54;
-    border-bottom: 1px solid #d3d3d3;
     padding: 0 0 .5em;
-    font-size: 1.5em;
+    font-size: 1.2em;
     border-left: none;
     margin-top: 0;
     margin-bottom: .5em;
@@ -127,8 +132,8 @@ hgroup.source {
 	display: none;
 }
 .sidebar {
-	font-size: 1.25em;
-	color: #981e32;
+	padding-top:13em;
+	font-size: .9em;
 }
 main ul {
 	padding-left:5em;
@@ -269,7 +274,7 @@ section:first-of-type {
 	margin-top:0;
 }
 /**************************************
-	Featured image
+	Image
 **************************************/
 
 /* The sizing of the featured image on individual posts works
@@ -277,7 +282,6 @@ section:first-of-type {
    itself from the image. This will need to be targeted with
    mobile styles. */
 
-.home-featured-image,
 .featured-image {
 	background-size: cover;
 	background-position: left center;
@@ -287,10 +291,6 @@ section:first-of-type {
 	width: 100% !important;
 }
 
-.home-featured-image {
-	height: 500px !important;
-}
-
 .replacement-featured-image {
 	background-attachment: scroll;
 	background-position: 0 175px;
@@ -298,14 +298,15 @@ section:first-of-type {
 	-moz-transition: all 600ms ease-in-out;
 	-o-transition: all 600ms ease-in-out;
 }
-
 .replacement-featured-image:hover {
 	cursor: pointer;
 	background-position: 0 0;
 }
-
-.home-featured-image {
-	height: 700px;
+.full-img {
+	margin-top:.6rem;
+	height:400px;
+	background-size:cover;
+	background-attachment: fixed;
 }
 /**************************************
 	Video
@@ -331,44 +332,6 @@ section:first-of-type {
 /**************************************
 	Home Page
 **************************************/
-.home .main-header sub:not(.unset), 
-.home .main-header sup:not(.unset) {
-	display: block;
-	font-size: 13px;
-	line-height: 1;
-}
-.home .main-header .header-group:not(.unset) {
-	margin-left: auto;
-	margin-right: auto;
-}
-.home .sup-header span {
-	color: #981e32;
-	font-weight: 300;
-	padding-bottom: .5rem;
-}
-
-.home .sub-header span {
-	border-left: none;
-	font-weight: 300;
-	margin-left: 0;
-	padding-left: 0;
-	text-transform: none;
-	font-family: 'Palatino';
-	font-size: 4rem;
-}
-.home .main-header {
-	padding-top: 3em;
-}
-.home .main-header h1 {
-	background-size: 12%;
-	max-width: 792px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.home .sub-header span {
-	color: #464e54;
-	border-bottom: 1px solid #d3d3d3;
-}
 /**************************************
 	Blog
 **************************************/
@@ -633,10 +596,6 @@ ul.tribe-events-sub-nav a:hover {
 **************************************/
 
 @media screen and (max-width: 955px) {
-	.home .sub-header span {
-		border-bottom: none;
-	}
-	
 	.row.single .column.align {
 		padding: 2em;
 	}
@@ -651,9 +610,6 @@ ul.tribe-events-sub-nav a:hover {
 	}
 }
 @media screen and (max-width: 600px) {
-	.home .sub-header span {
-		font-size: 2.5rem;
-	}
 	.main-header {
 		padding: 1.5rem 0;
 	}
