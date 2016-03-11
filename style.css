@@ -233,6 +233,14 @@ section.bg-image {
 	z-index: 101;
 }
 
+.president-primary-search .screen-reader-text {
+	font-size: 0;
+}
+
+.president-primary-search .search-field {
+	font-size: 16px;
+}
+
 .search-term {
 	color: #333;
 	font-style: italic;
