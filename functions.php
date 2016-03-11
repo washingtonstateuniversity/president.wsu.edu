@@ -16,3 +16,8 @@ function register_svgs() {
     wsu_register_inline_svg( 'my-svg-1', $svg_1 );
     wsu_register_inline_svg( 'my-svg-2', $svg_2 );
 }
+
+add_action( 'after_setup_theme', 'wsu_president_theme_setup' );
+function wsu_president_theme_setup() {
+    add_theme_support( 'html5', array( 'gallery', 'caption', 'search-form' ) );
+}
