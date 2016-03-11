@@ -1,6 +1,4 @@
-<div class="president-primary-search">
-	<?php get_search_form(); ?>
-</div>
+<div class="president-trigger-search"></div>
 <?php
 
 /**
@@ -31,6 +29,8 @@ if ( true === spine_get_option( 'main_header_show' ) ) :
 
 		</div>
 	</header>
-
+	<div class="president-primary-search">
+		<?php get_search_form(); ?>
+	</div>
 	<?php
 endif;

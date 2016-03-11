@@ -228,27 +228,70 @@ section.bg-image {
 /**************************************
 	Search Area
 **************************************/
-.president-primary-search {
+.president-trigger-search {
+	background-color: #981e32;
+	background-image: url('assets/ico-search-wht.png');
+	background-size: cover;
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
 	position: absolute;
 	top: 0;
-	right: 3em;
-	background-color: #fff;
-	height: auto;
-	width: auto;
+	right: 38px;
 	z-index: 101;
+}
+
+.main-header.president-search-open {
+	padding-bottom: 2px;
+}
+
+.president-primary-search {
+	display: none;
+	background-color: #333;
+	height: auto;
+	width: 100%;
+	color: #fff;
+}
+
+.president-primary-search form {
+	margin-bottom: 0;
 }
 
 .president-primary-search .screen-reader-text {
 	font-size: 0;
+	width: 0;
+	float: left;
 }
 
+.president-primary-search .search-field:focus,
 .president-primary-search .search-field {
-	font-size: 16px;
+	font-size: 2rem;
+	background: #333;
+	border: none;
+	color: #fff;
+	font-weight: 300;
+	padding-left: 3rem;
+	box-shadow: none;
+	width: 100%;
+	background-image: url('assets/ico-search-wht.png');
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 .search-term {
 	color: #333;
 	font-style: italic;
+}
+
+.president-primary-search input[type="submit"] {
+	display: none;
+	height: 100%;
+	line-height: 1rem;
+	font-size: 1rem;
+	padding: .5rem .5rem;
+	border-radius: 0;
+	background-color: #fff;
+	float: right;
 }
 
 /**************************************
