@@ -292,8 +292,7 @@ section.bg-image {
 }
 
 .search-term {
-	color: #333;
-	font-style: italic;
+	color: #000;
 }
 
 .president-primary-search input[type="submit"] {
@@ -305,6 +304,10 @@ section.bg-image {
 	border-radius: 0;
 	background-color: #fff;
 	float: right;
+}
+
+.search-results-head {
+	color: #464e54;
 }
 
 /**************************************

@@ -12,7 +12,7 @@ get_header();
 		?>
 		<section class="row single gutter pad-ends">
 			<div class="column one">
-				<h1>Search Results for <span class="search-term"><?php echo get_search_query(); ?></span></h1>
+				<h1 class="search-results-head">Search Results for <span class="search-term"><?php echo get_search_query(); ?></span></h1>
 			</div>
 		</section>
 		<?php
