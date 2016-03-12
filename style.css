@@ -254,6 +254,7 @@ section.bg-image {
 	z-index: 101;
 }
 
+.search .main-header,
 .main-header.president-search-open {
 	padding-bottom: 2px;
 }
@@ -264,6 +265,10 @@ section.bg-image {
 	height: auto;
 	width: 100%;
 	color: #fff;
+}
+
+.search .president-primary-search {
+	display: block;
 }
 
 .president-primary-search form {
