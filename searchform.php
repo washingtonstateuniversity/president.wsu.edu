@@ -1,7 +1,7 @@
 <form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 	<label>
-		<span class="screen-reader-text">Search for:</span>
-		<input type="text" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+		<span class="screen-reader-text">search portfolio site</span>
+		<input type="text" class="search-field" placeholder="search portfolio site" value="<?php echo get_search_query(); ?>" name="s" title="search portfolio site" />
 	</label>
 	<input type="submit" class="search-submit" value="Search" />
 </form>

@@ -254,6 +254,7 @@ section.bg-image {
 	z-index: 101;
 }
 
+.search .main-header,
 .main-header.president-search-open {
 	padding-bottom: 2px;
 }
@@ -264,6 +265,10 @@ section.bg-image {
 	height: auto;
 	width: 100%;
 	color: #fff;
+}
+
+.search .president-primary-search {
+	display: block;
 }
 
 .president-primary-search form {
@@ -292,8 +297,7 @@ section.bg-image {
 }
 
 .search-term {
-	color: #333;
-	font-style: italic;
+	color: #000;
 }
 
 .president-primary-search input[type="submit"] {
@@ -305,6 +309,10 @@ section.bg-image {
 	border-radius: 0;
 	background-color: #fff;
 	float: right;
+}
+
+.search-results-head {
+	color: #464e54;
 }
 
 /**************************************
