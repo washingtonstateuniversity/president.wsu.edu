@@ -26,3 +26,18 @@ add_action( 'wp_enqueue_scripts', 'wsu_president_theme_enqueue_scripts' );
 function wsu_president_theme_enqueue_scripts() {
     wp_enqueue_script( 'wsu-president', get_stylesheet_directory_uri() . '/js/portfolio.js', array( 'jquery' ), spine_get_script_version(), true );
 }
+
+add_filter( 'the_content', 'wsu_president_replace_p_with_figure', 99 );
+add_filter( 'make_the_builder_content', 'wsu_president_replace_p_with_figure', 99 );
+/**
+ * Replace paragraphs wrapped around lone images with figure.
+ *
+ * @param string $content Original content being stored.
+ *
+ * @return string Modified content.
+ */
+function wsu_president_replace_p_with_figure( $content ) {
+    $content = preg_replace('/<p[^>]*>\\s*?(<a .*?><img.*?><\\/a>|<img.*?>)?\\s*<\/p>/', '<figure class=\"wsu-p-replaced\">$1</figure>', $content);
+
+    return $content;
+}
