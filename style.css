@@ -5,7 +5,7 @@
  Author:         WSU University Communications
  Author URI:     https://ucomm.wsu.edu/
  Template:       spine
- Version:        0.0.6
+ Version:        0.0.8
 */
 
 * {
@@ -136,8 +136,16 @@ hgroup.source {
 	font-size: .9em;
 }
 main ul {
-	padding-left:5em;
+	padding-left:3.5em;
 	padding-bottom:2em;
+}
+
+main ul li > ul {
+	padding-left: 1.3em;
+	padding-bottom: .75em;
+}
+main ul li > ul li {
+	font-size: 1em;
 }
 p + ul {
 	padding-top:0;
@@ -366,11 +374,40 @@ section:first-of-type {
 	cursor: pointer;
 	background-position: 0 0;
 }
-.full-img {
+main .full-img {
 	margin-top:.6rem;
 	height:400px;
 	background-size:cover;
 	background-attachment: fixed;
+}
+main .short-pic {
+	width: 100%;
+	height: auto;
+	margin: 1em 0 0;
+	padding: 0;
+	background-color: transparent;
+}
+
+main .short-pic figure {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+main .short-pic img {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+main .pic-big {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+main .pic-sm {
+	display: none;
 }
 /**************************************
 	Video
@@ -396,6 +433,57 @@ section:first-of-type {
 /**************************************
 	Home Page
 **************************************/
+.home main {
+	position: relative;
+	padding-right: 0;
+	background: url('/wp-content/uploads/sites/1126/2016/03/campus1.jpg');
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.home .main-header {
+	background-color: transparent;
+}
+
+.home .main-header .sup-header:not(.unset) a, .home .sub-header span, .home .sup-header-default {
+	color: #fff;
+}
+
+.home .sub-header span {
+	border-left: 1px solid #fff;
+	color: #fff;
+}
+
+.home .welcome {
+	background: transparent url(https://wsu.edu/125/wp-content/themes/wsu-home/images/wsu-home-cougar-head-white.svg) no-repeat;
+	background-size: 150px;
+	background-position: 50% 95%;
+	padding-bottom: 300px;
+}
+
+.home .welcome h1 {
+	font-family: 'palatino', serif;
+	color: #fff;
+	text-align: center;
+	font-size: calc(3vw + 3vh + 1vmin);
+	letter-spacing: -1px;
+	font-weight: 400;
+	padding: .5em 1em 1em;
+	text-shadow: 2px 2px 14px rgba(0,0,0,0.45);
+	width: 100%;
+}
+.letter {
+	border-top: solid 8px #981e32;
+	max-width: 100%;
+	margin: 1em 2em 2em;
+	background: #fff;
+	padding: 3em 2em 6em;
+	-webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.45);
+	-moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.45);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.45);
+}
 /**************************************
 	Blog
 **************************************/
@@ -664,6 +752,41 @@ ul.tribe-events-sub-nav a:hover {
 		padding: 2em;
 	}
 }
+@media all and (max-width: 791px) {
+	#binder.fluid #spine header {
+		-webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.45);
+		-moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.45);
+		box-shadow: 0 0 10px 0 rgba(0,0,0,0.45);
+	}
+	
+	.home main {
+		position: relative;
+		padding-right: 0;
+		background: url('/wp-content/uploads/sites/1126/2016/03/campus1.jpg');
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	main p {
+		font-size: 1.1em;
+		line-height: 1.5em;
+		padding-bottom: 2em;
+		padding-left: 0;
+	}
+	main {
+		padding-right: 0;
+	}
+		main ul {
+		padding-left: 2em;
+	}
+	main ul li {
+		font-size: 1.1em;
+	}
+	.tablepress {
+		margin-left: 0;
+	}
+}
 @media screen and (max-width: 768px) {
 	.tribe-events-sub-nav li a {
 		background:#fff;
@@ -673,6 +796,7 @@ ul.tribe-events-sub-nav a:hover {
 		color:#c60c30;
 	}
 }
+
 @media screen and (max-width: 600px) {
 	.main-header {
 		padding: 1.5rem 0;
@@ -681,15 +805,34 @@ ul.tribe-events-sub-nav a:hover {
 	.main-header sup:not(.unset) {
 		display: block;
 	}
-	
 	.main-header sub {
 		padding-top: .5rem;
 	}
-	
 	.sub-header span {
 		border-left: none;
 		margin-left: 0;
 		padding-left: 0;
+	}
+	.letter {
+		max-width: 100%;
+		margin: 1em 0 2em;
+		padding: 2em 1em 6em;
+	}
+	
+	.home .sub-header span {
+		border-left: 0;
+	}
+	
+	main .pic-big {
+		display: none;
+	}
+	main .pic-sm {
+		display: block;
+		padding: 0 20px 40px 0;
+		width: 250px;
+	}
+	.tablepress {
+		margin-left: 1.3em;
 	}
 }
 @media screen and (max-width: 490px) {
