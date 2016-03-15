@@ -5,7 +5,7 @@
  Author:         WSU University Communications
  Author URI:     https://ucomm.wsu.edu/
  Template:       spine
- Version:        0.0.8
+ Version:        0.0.9
 */
 
 * {
@@ -147,7 +147,7 @@ main ul li > ul {
 main ul li > ul li {
 	font-size: 1em;
 }
-p + ul {
+main p + ul {
 	padding-top:0;
 }
 main ul li {
@@ -341,7 +341,7 @@ section {
 	margin-top:.6rem;
 	background-color: #fff;
 }
-
+section.no-margin-top,
 section:first-of-type {
 	margin-top:0;
 }
@@ -408,6 +408,10 @@ main .pic-big {
 
 main .pic-sm {
 	display: none;
+}
+main svg {
+	margin-top:1.2em;
+	margin-bottom:1.2em;
 }
 /**************************************
 	Video
@@ -535,6 +539,21 @@ main .pic-sm {
 /**************************************
 	Tables
 **************************************/
+h2.tablepress-table-name {
+	font-family: 'palatino';
+	color:#2a3033;
+	font-size:1.3rem;
+	font-weight: 400;
+	padding-top:1em;
+	padding-bottom:.8em;
+	border-bottom:0;
+	margin-bottom:0;
+}
+.tablepress-table-description {
+	font-size: 1.2em;
+    font-style: italic;
+    padding-bottom:.8em;
+}
 table.tablepress {
 	font-weight:400;
 	margin-top:2em;
