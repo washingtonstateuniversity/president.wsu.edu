@@ -5,7 +5,7 @@
  Author:         WSU University Communications
  Author URI:     https://ucomm.wsu.edu/
  Template:       spine
- Version:        0.0.9
+ Version:        0.1.0
 */
 
 * {
@@ -59,12 +59,16 @@ main ::-moz-selection {
 	padding: .7em 2rem;
 	position: relative;
 	max-width:990px;
+	display: flex;
 }
-.main-header sub:not(.unset), .main-header sup:not(.unset) {
+.main-header sub:not(.unset), 
+.main-header sup:not(.unset) {
 	display: inline-block;
 	font-size: 13px;
 }
-.main-header .sup-header:not(.unset) a, .sub-header span, .sup-header-default {
+.main-header .sup-header:not(.unset) a,
+.sub-header span, 
+.sup-header-default {
 	color: #5e6a71;
 	font-weight: 700;
 	letter-spacing: 2px;
@@ -89,7 +93,6 @@ main p {
 	padding-bottom: 2em;
 	padding-left:1em;
 }
-
 h1 {
 	width:635px;
 	color: #2a3033;
@@ -139,7 +142,13 @@ main ul {
 	padding-left:3.5em;
 	padding-bottom:2em;
 }
-
+main ul li {
+	font-size: 1.3em;
+	line-height: 1.5em;
+}
+main ul > li {
+	padding-bottom: .5em;
+}
 main ul li > ul {
 	padding-left: 1.3em;
 	padding-bottom: .75em;
@@ -149,13 +158,6 @@ main ul li > ul li {
 }
 main p + ul {
 	padding-top:0;
-}
-main ul li {
-	font-size: 1.3em;
-	line-height: 1.5em;
-}
-main ul > li {
-	padding-bottom: .5em;
 }
 main ul > li > ul {
 	padding-top: 1rem;
@@ -374,13 +376,13 @@ section:first-of-type {
 	cursor: pointer;
 	background-position: 0 0;
 }
-main .full-img {
+.full-img {
 	margin-top:.6rem;
 	height:400px;
 	background-size:cover;
 	background-attachment: fixed;
 }
-main .short-pic {
+.short-pic {
 	width: 100%;
 	height: auto;
 	margin: 1em 0 0;
@@ -400,13 +402,13 @@ main .short-pic img {
 	width: 100%;
 }
 
-main .pic-big {
+.pic-big {
 	width: 100%;
 	margin: 0;
 	padding: 0;
 }
 
-main .pic-sm {
+.pic-sm {
 	display: none;
 }
 main svg {
@@ -548,16 +550,21 @@ h2.tablepress-table-name {
 	padding-bottom:.8em;
 	border-bottom:0;
 	margin-bottom:0;
+	margin-top:0;
 }
 .tablepress-table-description {
 	font-size: 1.2em;
     font-style: italic;
     padding-bottom:.8em;
+    padding-left:1em;
 }
 table.tablepress {
 	font-weight:400;
 	margin-top:2em;
 	margin-bottom:2em;
+}
+table.tablepress + h2.tablepress-table-name {
+	margin-top:3em;
 }
 table.tablepress tbody {
 	font-size: 110%;
@@ -575,6 +582,35 @@ table#tablepress-4.tablepress .row-7 {
 }
 .tablepress .odd td {
 	background: url('assets/bg-lines-angle-drk.png') repeat left top;
+}
+.commercialization-indicators h2.tablepress-table-name {
+	color: #464e54;
+	padding: 0;
+	font-size: 1.2em;
+	border-left: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 2em;
+	font-family: 'open sans';
+	line-height: 1.1em;
+	letter-spacing: 0;
+	font-weight: 700;
+}
+.commercialization-indicators table.tablepress + h2.tablepress-table-name {
+	margin-top: 0;
+}
+/**************************************
+	Graphs
+**************************************/
+table.tablepress + h2.tablepress-table-name,
+table.tablepress + h3,
+.tablepress-table-description + h3,
+svg + h2.tablepress-table-name,
+svg + h3 {
+	margin-top: 2.2em;
+}
+.commercialization-indicators h4 {
+	padding-top: 2em;
 }
 /**************************************
 	Events
@@ -754,7 +790,8 @@ ul.tribe-events-sub-nav a:hover {
 .gform_wrapper .gfield_time_ampm label, 
 .gform_wrapper .gfield_time_hour label, 
 .gform_wrapper .gfield_time_minute label, 
-.gform_wrapper .ginput_complex label, .gform_wrapper .instruction {
+.gform_wrapper .ginput_complex label, 
+.gform_wrapper .instruction {
 	font-weight: 400;
 }
 .gform_wrapper .gfield_checkbox li label, 
@@ -777,7 +814,6 @@ ul.tribe-events-sub-nav a:hover {
 		-moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.45);
 		box-shadow: 0 0 10px 0 rgba(0,0,0,0.45);
 	}
-	
 	.home main {
 		position: relative;
 		padding-right: 0;
@@ -796,7 +832,7 @@ ul.tribe-events-sub-nav a:hover {
 	main {
 		padding-right: 0;
 	}
-		main ul {
+	main ul {
 		padding-left: 2em;
 	}
 	main ul li {
@@ -820,6 +856,7 @@ ul.tribe-events-sub-nav a:hover {
 	.main-header {
 		padding: 1.5rem 0;
 	}
+	.main-header .header-group:not(.unset),
 	.main-header sub:not(.unset),
 	.main-header sup:not(.unset) {
 		display: block;
@@ -837,15 +874,13 @@ ul.tribe-events-sub-nav a:hover {
 		margin: 1em 0 2em;
 		padding: 2em 1em 6em;
 	}
-	
 	.home .sub-header span {
 		border-left: 0;
 	}
-	
-	main .pic-big {
+	.pic-big {
 		display: none;
 	}
-	main .pic-sm {
+	.pic-sm {
 		display: block;
 		padding: 0 20px 40px 0;
 		width: 250px;
@@ -856,6 +891,7 @@ ul.tribe-events-sub-nav a:hover {
 }
 @media screen and (max-width: 490px) {
 	h1 {
-		margin-bottom:0;
+		margin-bottom:.8em;
+		margin-top:0;
 	}
 }
