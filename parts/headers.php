@@ -32,5 +32,6 @@ if ( true === spine_get_option( 'main_header_show' ) ) :
 	<div class="president-primary-search">
 		<?php get_search_form(); ?>
 	</div>
+	<a name="top"></a>
 	<?php
 endif;
