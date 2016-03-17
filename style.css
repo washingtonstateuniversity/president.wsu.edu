@@ -5,7 +5,7 @@
  Author:         WSU University Communications
  Author URI:     https://ucomm.wsu.edu/
  Template:       spine
- Version:        0.0.13
+ Version:        0.0.14
 */
 
 
@@ -812,26 +812,27 @@ ul.tribe-events-sub-nav a:hover {
 /**************************************
 	Footer
 **************************************/
-footer.main-fooot {
+footer.main-foot {
 	display: -webkit-flex;
 	display:flex;
 	padding:1em 0 1em 2em;
 	background-color:#fff;
 	margin-top:.6em;
 }
-footer.main-fooot .column.one p {
+footer.main-foot .column.one p {
 	font-size:1.1em;
 	flex:1;
 	padding-top: 0;
 	padding-bottom:0;
 }
-footer.main-fooot .btt-wrap {
+footer.main-foot .btt-wrap {
 	position:absolute;
 	width:60px;
 	height:60px;
 	right:39px;
+	bottom:0;
 }
-footer.main-fooot .column.two.btt-space {
+footer.main-foot .column.two.btt-space {
 	flex:1;
 	background: url('assets/bg-lines-angle-drk.png') repeat left top;
 	width: 60px;
@@ -846,19 +847,19 @@ footer.main-fooot .column.two.btt-space {
  	text-align: center;
  	vertical-align: bottom;
 }
-footer.main-fooot .column.two .btt {
+footer.main-foot .column.two .btt {
 	position:relative;
 	width: 60px;
     height: 60px;
 }
-footer.main-fooot .column.two .btt p {
+footer.main-foot .column.two .btt p {
 	font-size:4em;
 	line-height: 1.4em;
 	padding-bottom:0;
 	margin-bottom:.5em;
 	padding-left:0;
 }
-footer.main-fooot .column.two .btt a {
+footer.main-foot .column.two .btt a {
 	display: block;
 	width:100%;
 	height:100%;

@@ -1,4 +1,4 @@
-<footer class="main-fooot">
+<footer class="main-foot">
 	<div class="column one">
 		<p>
 			<a href="mailto:christine.hoyt@wsu.edu" title="email">Presidential Transition Liaison</a> |
