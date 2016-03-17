@@ -5,7 +5,7 @@
  Author:         WSU University Communications
  Author URI:     https://ucomm.wsu.edu/
  Template:       spine
- Version:        0.0.14
+ Version:        0.0.15
 */
 
 
@@ -489,7 +489,7 @@ main svg {
 	-moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.45);
 	box-shadow: 0 0 10px 0 rgba(0,0,0,0.45);
 }
-.home footer.main-fooot .column.two.btt-space {
+.home footer.main-foot .column.two.btt-space {
 	position:absolute;
 }
 /**************************************
