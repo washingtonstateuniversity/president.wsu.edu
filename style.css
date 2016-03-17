@@ -5,7 +5,7 @@
  Author:         WSU University Communications
  Author URI:     https://ucomm.wsu.edu/
  Template:       spine
- Version:        0.0.12
+ Version:        0.0.13
 */
 
 
@@ -95,7 +95,7 @@ main p {
 	padding-left:1em;
 }
 h1 {
-	width:635px;
+	width:80%;
 	color: #2a3033;
 	margin: 1rem 0 2rem 0;
 	padding-top: 0;
@@ -218,7 +218,6 @@ section.bg-image {
 .show-hide:hover {
 	color: #c60c30;
 }
-
 .show-hide:after,
 .accordion h5.ui-accordion-header:after {
 	color: #981E32;
@@ -237,7 +236,6 @@ section.bg-image {
 	border-top: 1px solid #d3d3d3;
 	font-size: 1.1em;
 }
-
 .accordion h5.ui-accordion-header:first-of-type {
 	border-top: 0;
 }
@@ -273,12 +271,10 @@ section.bg-image {
 	right: 38px;
 	z-index: 101;
 }
-
 .search .main-header,
 .main-header.president-search-open {
 	padding-bottom: 2px;
 }
-
 .president-primary-search {
 	display: none;
 	background-color: #333;
@@ -286,7 +282,6 @@ section.bg-image {
 	width: 100%;
 	color: #fff;
 }
-
 .search .president-primary-search {
 	display: block;
 }
@@ -294,13 +289,11 @@ section.bg-image {
 .president-primary-search form {
 	margin-bottom: 0;
 }
-
 .president-primary-search .screen-reader-text {
 	font-size: 0;
 	width: 0;
 	float: left;
 }
-
 .president-primary-search .search-field:focus,
 .president-primary-search .search-field {
 	font-size: 2rem;
@@ -315,11 +308,9 @@ section.bg-image {
 	background-repeat: no-repeat;
 	background-size: contain;
 }
-
 .search-term {
 	color: #000;
 }
-
 .president-primary-search input[type="submit"] {
 	display: none;
 	height: 100%;
@@ -330,11 +321,9 @@ section.bg-image {
 	background-color: #fff;
 	float: right;
 }
-
 .search-results-head {
 	color: #464e54;
 }
-
 /**************************************
 	Structures
 **************************************/
@@ -499,6 +488,9 @@ main svg {
 	-webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.45);
 	-moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.45);
 	box-shadow: 0 0 10px 0 rgba(0,0,0,0.45);
+}
+.home footer.main-fooot .column.two.btt-space {
+	position:absolute;
 }
 /**************************************
 	Blog
@@ -833,6 +825,12 @@ footer.main-fooot .column.one p {
 	padding-top: 0;
 	padding-bottom:0;
 }
+footer.main-fooot .btt-wrap {
+	position:absolute;
+	width:60px;
+	height:60px;
+	right:39px;
+}
 footer.main-fooot .column.two.btt-space {
 	flex:1;
 	background: url('assets/bg-lines-angle-drk.png') repeat left top;
@@ -841,7 +839,6 @@ footer.main-fooot .column.two.btt-space {
     position: fixed;
     cursor: pointer;
     bottom: 0;
-    right: 158px;
     z-index: 101;
  	line-height: 0;
  	padding:0;
@@ -853,7 +850,6 @@ footer.main-fooot .column.two .btt {
 	position:relative;
 	width: 60px;
     height: 60px;
-    z-index: 100;
 }
 footer.main-fooot .column.two .btt p {
 	font-size:4em;
@@ -862,13 +858,20 @@ footer.main-fooot .column.two .btt p {
 	margin-bottom:.5em;
 	padding-left:0;
 }
+footer.main-fooot .column.two .btt a {
+	display: block;
+	width:100%;
+	height:100%;
+}
 /**************************************
 	Media queries
 **************************************/
-
 @media screen and (max-width: 955px) {
 	.row.single .column.align {
 		padding: 2em;
+	}
+	h1 { 
+		width:95%;
 	}
 }
 @media all and (max-width: 791px) {
@@ -956,5 +959,9 @@ footer.main-fooot .column.two .btt p {
 	h1 {
 		margin-bottom:.8em;
 		margin-top:0;
+		width:100%;
+	}
+	table {
+		margin-left:0;
 	}
 }
