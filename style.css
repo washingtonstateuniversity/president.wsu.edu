@@ -5,7 +5,7 @@
  Author:         WSU University Communications
  Author URI:     https://ucomm.wsu.edu/
  Template:       spine
- Version:        0.0.16
+ Version:        0.0.17
 */
 
 
@@ -545,7 +545,8 @@ main svg {
 **************************************/
 .page-executive-officers section .column.two,
 .page-chancellors section .column.two,
-.page-deans section .column.two {
+.page-deans section .column.two,
+.page-regents section .column.two{
 	padding-top: 2em;
 }
 /**************************************
