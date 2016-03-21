@@ -5,7 +5,7 @@
  Author:         WSU University Communications
  Author URI:     https://ucomm.wsu.edu/
  Template:       spine
- Version:        0.0.17
+ Version:        0.0.18
 */
 
 
@@ -84,6 +84,31 @@ main ::-moz-selection {
 	padding-left: 1.25em;
 	text-transform: uppercase;
 	color: #981e32;
+}
+/**************************************
+	Jump menus
+**************************************/
+main ul.people-nav,
+main .toc ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1em 0 3em;
+	margin-top: 1em;
+	border-top: solid 1px #d3d3d3;
+}
+
+.people-nav li,
+main .toc ul li {
+	font-size: 1.1em;
+	padding: 1em .5em;
+	width: 180px;
+}
+
+.people-nav li em,
+main .toc ul li em {
+	text-decoration: italic;
+	font-size: .9em;
 }
 /**************************************
 	Typography
@@ -273,7 +298,7 @@ section.bg-image {
 }
 .search .main-header,
 .main-header.president-search-open {
-	padding-bottom: 2px;
+	padding-bottom: 10px;
 }
 .president-primary-search {
 	display: none;
@@ -404,7 +429,7 @@ main .short-pic img {
 .pic-big {
 	width: 100%;
 	margin: 0;
-	padding: 0;
+	padding: 2em 0 0 0;
 }
 
 .pic-sm {
@@ -539,15 +564,6 @@ main svg {
 	float: none;
 	margin: 1.2rem 0 0;
 	padding-bottom: 1.2em;
-}
-/**************************************
-	Specific pages
-**************************************/
-.page-executive-officers section .column.two,
-.page-chancellors section .column.two,
-.page-deans section .column.two,
-.page-regents section .column.two{
-	padding-top: 2em;
 }
 /**************************************
 	Tables
@@ -854,11 +870,17 @@ footer.main-foot .column.two .btt {
     height: 60px;
 }
 footer.main-foot .column.two .btt p {
-	font-size:4em;
-	line-height: 1.4em;
+	font-size:2em;
+	line-height: .8em;
 	padding-bottom:0;
 	margin-bottom:.5em;
 	padding-left:0;
+	padding-top:.4em;
+}
+footer.main-foot .column.two .btt p span.top-text {
+	font-size:1rem;
+	display:block;
+	width:60px;
 }
 footer.main-foot .column.two .btt a {
 	display: block;
