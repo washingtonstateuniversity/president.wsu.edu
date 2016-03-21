@@ -1,5 +1,7 @@
 <?php
 
+include_once( __DIR__ . '/includes/class-wsuwp-president-map-shortcode.php' );
+
 add_action( 'wsu_register_inline_svg', 'register_svgs' );
 function register_svgs() {
     ob_start();
