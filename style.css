@@ -5,7 +5,7 @@
  Author:         WSU University Communications
  Author URI:     https://ucomm.wsu.edu/
  Template:       spine
- Version:        0.0.22
+ Version:        0.0.23
 */
 
 * {
@@ -19,7 +19,7 @@ body {
 main {
 	position: relative;
 	padding-right:20px;
-	background: url('assets/bg-lines-angle-bg.png') repeat left top;
+	background: url('assets/dark-dgnl.png') repeat left top;
 	background-attachment: fixed
 }
 main ::selection {
@@ -129,7 +129,7 @@ h1 {
 }
 h2 {
 	font-weight:600;
-	color:#464e54;
+	color: #2a3033;
 	font-size:1.6rem;
 	line-height: 1;
 	padding:1em 0 1em 0;
@@ -140,7 +140,7 @@ h2 {
 h3 {
 	font-family: 'palatino';
 	color:#2a3033;
-	font-size:1.3rem;
+	font-size:1.6rem;
 	font-weight: 400;
 	padding-top:1em;
 	padding-bottom:.8em;
@@ -154,7 +154,10 @@ h4 {
     margin-bottom: .5em;
 }
 h5 {
-	padding-bottom: 1.1em;
+	color: #2a3033;
+	font-weight: 400;
+	padding: .5rem 0;
+	line-height: 1.5rem;
 }
 hgroup.source {
 	display: none;
@@ -199,6 +202,10 @@ aside header {
 .highlight {
 	background-color:#981E32;
 	color:#fff;
+}
+.big-crimson {
+	font-weight: 700;
+	color: #981e32;
 }
 .exaggerate {
 	font-size:2em;
@@ -279,6 +286,11 @@ section.bg-image {
     margin-bottom: .5em;
     font-weight:600;
     padding-left:1.8em;
+}
+.map-hold {
+	height: 400px;
+	margin: .6rem 0;
+	padding: 0;
 }
 /**************************************
 	Search Area
@@ -586,7 +598,7 @@ main .svg-60 svg {
 h2.tablepress-table-name {
 	font-family: 'palatino';
 	color:#2a3033;
-	font-size:1.3rem;
+	font-size:1.6rem;
 	font-weight: 400;
 	padding-top:1em;
 	padding-bottom:.8em;
