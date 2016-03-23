@@ -5,7 +5,7 @@
  Author:         WSU University Communications
  Author URI:     https://ucomm.wsu.edu/
  Template:       spine
- Version:        0.0.18
+ Version:        0.0.21
 */
 
 
@@ -438,6 +438,22 @@ main .short-pic img {
 main svg {
 	margin-top:1.2em;
 	margin-bottom:1.2em;
+}
+main .svg-90,
+main .svg-90 svg{
+	width:90%;
+}
+main .svg-80,
+main .svg-80 svg {
+	width:80%;
+}
+main .svg-70,
+main .svg-70 svg {
+	width:70%;
+}
+main .svg-60,
+main .svg-60 svg {
+	width:60%;
 }
 /**************************************
 	Video
@@ -930,6 +946,17 @@ footer.main-foot .column.two .btt a {
 	}
 	.tablepress {
 		margin-left: 0;
+	}
+	main svg,
+	main .svg-90,
+	main .svg-90 svg,
+	main .svg-80,
+	main .svg-80 svg,
+	main .svg-70,
+	main .svg-70 svg,
+	main .svg-60,
+	main .svg-60 svg {
+		width:100%;
 	}
 }
 @media screen and (max-width: 768px) {
