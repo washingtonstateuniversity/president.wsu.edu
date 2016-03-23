@@ -5,7 +5,7 @@
  Author:         WSU University Communications
  Author URI:     https://ucomm.wsu.edu/
  Template:       spine
- Version:        0.0.28
+ Version:        0.0.29
 */
 
 * {
@@ -87,9 +87,6 @@ main ::-moz-selection {
 /**************************************
 	Jump menus
 **************************************/
-main ul.people-nav {
-	margin-bottom:3em;
-}
 main ul.people-nav,
 main .toc ul {
 	list-style: none;
@@ -98,7 +95,9 @@ main .toc ul {
 	padding: 1em 0 0;
 	margin-top: 1em;
 }
-
+main section ul.people-nav {
+	padding-bottom:3em;
+}
 .people-nav li,
 main .toc ul li {
 	position:relative;
@@ -153,8 +152,9 @@ main p {
 h1 {
 	width:80%;
 	color: #2a3033;
-	margin: 1rem 0 2rem 0;
+	margin: 1rem 0 0 0;
 	padding-top: 0;
+	padding-bottom:2rem;
 	font-family: 'palatino';
 	text-transform: none;
 	font-weight: 400;
@@ -165,7 +165,8 @@ h2 {
 	font-size:1.6rem;
 	line-height: 1;
 	padding:1em 0 1em 0;
-	margin-top:2em;
+	padding-top:2em;
+	margin-top:0;
 	margin-bottom:1.5em;
 	border-bottom:1px solid #d3d3d3;
 }
@@ -1058,7 +1059,7 @@ footer.main-foot .column.two .btt a {
 }
 @media screen and (max-width: 490px) {
 	h1 {
-		margin-bottom:.8em;
+		padding-bottom:2em;
 		margin-top:0;
 		width:100%;
 	}
@@ -1069,5 +1070,11 @@ footer.main-foot .column.two .btt a {
 	main .toc ul li {
 		font-size:.8em;
 		width:100%;
+	}
+	.president-trigger-search {
+		right: 5px;
+	}
+	footer.main-foot .btt-wrap {
+		right:9px;
 	}
 }
