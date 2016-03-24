@@ -167,6 +167,8 @@ function register_svgs() {
     wsu_register_inline_svg( 'revenues-from-all-sources-2014', $svg_20 );
 }
 
+add_filter( 'wsuwp_sso_allow_wp_auth', '__return_true' );
+
 add_action( 'after_setup_theme', 'wsu_president_theme_setup' );
 function wsu_president_theme_setup() {
     add_theme_support( 'html5', array( 'gallery', 'caption', 'search-form' ) );
