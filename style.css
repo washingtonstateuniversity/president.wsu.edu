@@ -5,7 +5,7 @@
  Author:         WSU University Communications
  Author URI:     https://ucomm.wsu.edu/
  Template:       spine
- Version:        0.0.29
+ Version:        0.0.30
 */
 
 * {
@@ -1059,7 +1059,7 @@ footer.main-foot .column.two .btt a {
 }
 @media screen and (max-width: 490px) {
 	h1 {
-		padding-bottom:2em;
+		padding-bottom:1em;
 		margin-top:0;
 		width:100%;
 	}
