@@ -42,7 +42,101 @@ function register_svgs() {
 
      ob_start();
     ?><!-- 10-year-revenue-growth is pasted here -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 981.01 376.75"><title>10-year-revenue-growth</title><line x1="54.26" y1="346.87" x2="981.01" y2="346.87" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:0.5px"/><text transform="translate(23.87 342.96)" style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$0</text><text transform="translate(7.96 316.94)" style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$110</text><text transform="translate(7.96 283)" style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$220</text><text transform="translate(7.96 249.06)" style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$330</text><text transform="translate(7.96 215.13)" style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$440</text><text transform="translate(7.96 181.19)" style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$550</text><text transform="translate(7.96 147.25)" style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$660</text><text transform="translate(7.96 113.32)" style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$770</text><text transform="translate(7.96 79.38)" style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$880</text><text transform="translate(7.96 45.44)" style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$990</text><text transform="translate(0 11.5)" style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$1100</text><line x1="54.26" y1="346.87" x2="54.26" y2="7.49" style="fill:none"/><line x1="54.26" y1="346.87" x2="981.01" y2="346.87" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:0.5px"/><line x1="54.26" y1="312.93" x2="981.01" y2="312.93" style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/><line x1="54.26" y1="278.99" x2="981.01" y2="278.99" style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/><line x1="54.26" y1="245.05" x2="981.01" y2="245.05" style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/><line x1="54.26" y1="211.12" x2="981.01" y2="211.12" style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/><line x1="54.26" y1="177.18" x2="981.01" y2="177.18" style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/><line x1="54.26" y1="143.24" x2="981.01" y2="143.24" style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/><line x1="54.26" y1="109.3" x2="981.01" y2="109.3" style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/><line x1="54.26" y1="75.37" x2="981.01" y2="75.37" style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/><line x1="54.26" y1="41.43" x2="981.01" y2="41.43" style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/><line x1="54.26" y1="7.49" x2="981.01" y2="7.49" style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/><rect x="76.27" y="30.94" width="48.65" height="315.93" style="fill:#808285"/><rect x="168.94" y="27.24" width="48.65" height="319.63" style="fill:#808285"/><rect x="261.62" y="50.38" width="48.65" height="296.49" style="fill:#808285"/><rect x="354.29" y="65.19" width="48.65" height="281.68" style="fill:#808285"/><rect x="446.97" y="73.82" width="48.65" height="273.04" style="fill:#808285"/><rect x="539.64" y="81.54" width="48.65" height="265.33" style="fill:#808285"/><rect x="632.32" y="96.96" width="48.65" height="249.9" style="fill:#808285"/><rect x="724.99" y="89.87" width="48.65" height="257" style="fill:#808285"/><rect x="817.67" y="109.3" width="48.65" height="237.56" style="fill:#808285"/><rect x="910.34" y="133.37" width="48.65" height="213.5" style="fill:#808285"/><text transform="translate(63.11 24.63)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$1,024</text><text transform="translate(258.87 43.28)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$961</text><text transform="translate(351.47 58.46)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$913</text><text transform="translate(443.81 66.71)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$885</text><text transform="translate(535.48 75.48)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$860</text><text transform="translate(628.29 90.8)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$810</text><text transform="translate(168.67 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2007</text><text transform="translate(75.35 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2006</text><text transform="translate(262.31 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2008</text><text transform="translate(354.28 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">20<tspan x="24.01" y="0">0</tspan><tspan x="35.27" y="0">9</tspan></text><text transform="translate(446.25 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2010</text><text transform="translate(538.91 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2011</text><text transform="translate(632.39 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2012</text><text transform="translate(725.49 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2013</text><text transform="translate(818.73 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2014</text><text transform="translate(912.5 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2015</text><text transform="translate(156.01 20.63)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$1,036</text><text transform="translate(721.06 83.48)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$833</text><text transform="translate(814.3 102.71)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$770</text><text transform="translate(906.4 126.06)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$692</text><path d="M195.51,250.67" transform="translate(-2.83 -0.52)" style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10"/><path d="M195.51,80" transform="translate(-2.83 -0.52)" style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 981.01 376.75"><title>10-year-revenue-growth</title>
+        <line x1="54.26" y1="346.87" x2="981.01" y2="346.87"
+              style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:0.5px"/>
+        <text transform="translate(23.87 342.96)"
+              style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$0
+        </text>
+        <text transform="translate(7.96 316.94)"
+              style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$110
+        </text>
+        <text transform="translate(7.96 283)"
+              style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$220
+        </text>
+        <text transform="translate(7.96 249.06)"
+              style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$330
+        </text>
+        <text transform="translate(7.96 215.13)"
+              style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$440
+        </text>
+        <text transform="translate(7.96 181.19)"
+              style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$550
+        </text>
+        <text transform="translate(7.96 147.25)"
+              style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$660
+        </text>
+        <text transform="translate(7.96 113.32)"
+              style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$770
+        </text>
+        <text transform="translate(7.96 79.38)"
+              style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$880
+        </text>
+        <text transform="translate(7.96 45.44)"
+              style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$990
+        </text>
+        <text transform="translate(0 11.5)"
+              style="font-size:13.859999656677246px;fill:#58595b;font-family:ITC Stone Sans Std">$1100
+        </text>
+        <line x1="54.26" y1="346.87" x2="54.26" y2="7.49" style="fill:none"/>
+        <line x1="54.26" y1="346.87" x2="981.01" y2="346.87"
+              style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:0.5px"/>
+        <line x1="54.26" y1="312.93" x2="981.01" y2="312.93"
+              style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/>
+        <line x1="54.26" y1="278.99" x2="981.01" y2="278.99"
+              style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/>
+        <line x1="54.26" y1="245.05" x2="981.01" y2="245.05"
+              style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/>
+        <line x1="54.26" y1="211.12" x2="981.01" y2="211.12"
+              style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/>
+        <line x1="54.26" y1="177.18" x2="981.01" y2="177.18"
+              style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/>
+        <line x1="54.26" y1="143.24" x2="981.01" y2="143.24"
+              style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/>
+        <line x1="54.26" y1="109.3" x2="981.01" y2="109.3"
+              style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/>
+        <line x1="54.26" y1="75.37" x2="981.01" y2="75.37"
+              style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/>
+        <line x1="54.26" y1="41.43" x2="981.01" y2="41.43"
+              style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/>
+        <line x1="54.26" y1="7.49" x2="981.01" y2="7.49"
+              style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/>
+        <rect x="76.27" y="30.94" width="48.65" height="315.93" style="fill:#808285"/>
+        <rect x="168.94" y="27.24" width="48.65" height="319.63" style="fill:#808285"/>
+        <rect x="261.62" y="50.38" width="48.65" height="296.49" style="fill:#808285"/>
+        <rect x="354.29" y="65.19" width="48.65" height="281.68" style="fill:#808285"/>
+        <rect x="446.97" y="73.82" width="48.65" height="273.04" style="fill:#808285"/>
+        <rect x="539.64" y="81.54" width="48.65" height="265.33" style="fill:#808285"/>
+        <rect x="632.32" y="96.96" width="48.65" height="249.9" style="fill:#808285"/>
+        <rect x="724.99" y="89.87" width="48.65" height="257" style="fill:#808285"/>
+        <rect x="817.67" y="109.3" width="48.65" height="237.56" style="fill:#808285"/>
+        <rect x="910.34" y="133.37" width="48.65" height="213.5" style="fill:#808285"/>
+
+        <text transform="translate(75.35 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2006</text>
+        <text transform="translate(168.67 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2007</text>
+        <text transform="translate(262.31 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2008</text>
+        <text transform="translate(354.28 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2009</text>
+        <text transform="translate(446.25 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2010</text>
+        <text transform="translate(538.91 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2011</text>
+        <text transform="translate(632.39 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2012</text>
+        <text transform="translate(725.49 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2013</text>
+        <text transform="translate(818.73 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2014</text>
+        <text transform="translate(912.5 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2015</text>
+
+        <text transform="translate(75.11 24.63)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$692</text>
+        <text transform="translate(168.01 20.63)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$770</text>
+        <text transform="translate(258.87 43.28)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$833</text>
+        <text transform="translate(351.47 58.46)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$810</text>
+        <text transform="translate(443.81 66.71)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$860</text>
+        <text transform="translate(540.48 75.48)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$885</text>
+        <text transform="translate(631.29 90.8)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$913</text>
+        <text transform="translate(726.06 83.48)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$961</text>
+        <text transform="translate(808.3 102.71)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$1,036</text>
+        <text transform="translate(900.4 126.06)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$1,024</text>
+        <path d="M195.51,250.67" transform="translate(-2.83 -0.52)"
+              style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10"/>
+        <path d="M195.51,80" transform="translate(-2.83 -0.52)" style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10"/>
+    </svg>
 <?php
     $svg_6 = ob_get_contents();
     ob_end_clean();
