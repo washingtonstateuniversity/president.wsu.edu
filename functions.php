@@ -101,16 +101,16 @@ function register_svgs() {
               style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/>
         <line x1="54.26" y1="7.49" x2="981.01" y2="7.49"
               style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10;stroke-width:0.5px"/>
-        <rect x="76.27" y="30.94" width="48.65" height="315.93" style="fill:#808285"/>
-        <rect x="168.94" y="27.24" width="48.65" height="319.63" style="fill:#808285"/>
-        <rect x="261.62" y="50.38" width="48.65" height="296.49" style="fill:#808285"/>
-        <rect x="354.29" y="65.19" width="48.65" height="281.68" style="fill:#808285"/>
-        <rect x="446.97" y="73.82" width="48.65" height="273.04" style="fill:#808285"/>
-        <rect x="539.64" y="81.54" width="48.65" height="265.33" style="fill:#808285"/>
-        <rect x="632.32" y="96.96" width="48.65" height="249.9" style="fill:#808285"/>
-        <rect x="724.99" y="89.87" width="48.65" height="257" style="fill:#808285"/>
-        <rect x="817.67" y="109.3" width="48.65" height="237.56" style="fill:#808285"/>
-        <rect x="910.34" y="133.37" width="48.65" height="213.5" style="fill:#808285"/>
+        <rect x="76.27" y="133.37" width="48.65" height="213.5" style="fill:#808285"/>
+        <rect x="168.94" y="109.3" width="48.65" height="237.56" style="fill:#808285"/>
+        <rect x="261.62" y="89.87" width="48.65" height="257" style="fill:#808285"/>
+        <rect x="354.29" y="96.96" width="48.65" height="249.9" style="fill:#808285"/>
+        <rect x="446.97" y="81.54" width="48.65" height="265.33" style="fill:#808285"/>
+        <rect x="539.64" y="73.82" width="48.65" height="273.04" style="fill:#808285"/>
+        <rect x="632.32" y="65.19" width="48.65" height="281.68" style="fill:#808285"/>
+        <rect x="724.99" y="50.38" width="48.65" height="296.49" style="fill:#808285"/>
+        <rect x="817.67" y="27.24" width="48.65" height="319.63" style="fill:#808285"/>
+        <rect x="910.34" y="30.94" width="48.65" height="315.93" style="fill:#808285"/>
 
         <text transform="translate(75.35 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2006</text>
         <text transform="translate(168.67 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2007</text>
@@ -123,16 +123,16 @@ function register_svgs() {
         <text transform="translate(818.73 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2014</text>
         <text transform="translate(912.5 371.06)" style="font-size:21px;fill:#58595b;font-family:Open Sans">2015</text>
 
-        <text transform="translate(75.11 24.63)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$692</text>
-        <text transform="translate(168.01 20.63)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$770</text>
-        <text transform="translate(258.87 43.28)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$833</text>
-        <text transform="translate(351.47 58.46)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$810</text>
-        <text transform="translate(443.81 66.71)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$860</text>
-        <text transform="translate(540.48 75.48)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$885</text>
-        <text transform="translate(631.29 90.8)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$913</text>
-        <text transform="translate(726.06 83.48)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$961</text>
-        <text transform="translate(808.3 102.71)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$1,036</text>
-        <text transform="translate(900.4 126.06)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$1,024</text>
+        <text transform="translate(75.11 126.06)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$692</text>
+        <text transform="translate(168.01 102.71)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$770</text>
+        <text transform="translate(258.87 83.48)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$833</text>
+        <text transform="translate(351.47 90.8)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$810</text>
+        <text transform="translate(443.81 75.48)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$860</text>
+        <text transform="translate(540.48 66.71)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$885</text>
+        <text transform="translate(631.29 58.46)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$913</text>
+        <text transform="translate(726.06 43.28)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$961</text>
+        <text transform="translate(808.3 20.63)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$1,036</text>
+        <text transform="translate(900.4 24.63)" style="font-size:24px;fill:#58595b;font-family:Open Sans">$1,024</text>
         <path d="M195.51,250.67" transform="translate(-2.83 -0.52)"
               style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10"/>
         <path d="M195.51,80" transform="translate(-2.83 -0.52)" style="fill:none;stroke:#d1d3d4;stroke-miterlimit:10"/>
