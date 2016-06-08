@@ -1,5 +1,5 @@
 /*
- Theme Name:     Washington State University Presidential Theme
+ Theme Name:     WSU President Porfolio
  Theme URI:      https://web.wsu.edu/
  Description:    A child theme for Washington State University's Spine framework
  Author:         WSU University Communications
@@ -95,6 +95,11 @@ main .toc ul {
 	padding: 1em 0 0;
 	margin-top: 1em;
 }
+
+main .toc ul {
+	padding-bottom: 1.4em;
+}
+
 main section ul.people-nav {
 	padding-bottom:3em;
 }
@@ -1104,6 +1109,11 @@ footer.main-foot .column.two .btt a {
 		font-size:.8em;
 		width:100%;
 	}
+
+	main .toc ul li {
+		flex-direction: row;
+	}
+
 	.president-trigger-search {
 		right: 5px;
 	}
